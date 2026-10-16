@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — The Rebuild</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="/images/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/images/favicon-32.png" sizes="32x32">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="nav" id="site-nav">
+  <div class="logo">THE<span>REBUILD</span></div>
+  <div class="nav-menu">
+  <div class="nav-links">
+    <a href="/coaching.html">Coaching</a><a href="/foundations.html">Foundations</a><a href="/blog/">Blog</a><a href="/results.html">Results</a><a href="/about.html">About</a>
+  </div>
+  <div class="nav-actions">
+    <a href="/foundations.html" class="btn btn-outline-light btn-sm">Free Guide</a>
+    <a href="/coaching.html#apply" class="btn btn-primary btn-sm">Apply for Coaching</a>
+  </div>
+  </div>
+  <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><span></span></button>
+</nav>
+
+<div class="notfound">
+  <div class="big">404</div>
+  <h1>That page got lost, not lazy.</h1>
+  <p>Whatever you were looking for isn't here any more — or never was. Try the homepage, or one of the links above.</p>
+  <a href="/" class="btn btn-primary">Back to Home</a>
+</div>
+
+<footer class="footer-simple">
+  <div class="logo">THE<span>REBUILD</span></div>
+  <span style="font-size:13px;">© <span id="y"></span> The Rebuild.</span>
+</footer>
+
+<script src="/js/main.js"></script>
+<script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
