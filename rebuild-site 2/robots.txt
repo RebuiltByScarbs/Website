@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /guide/
+Disallow: /call-booked.html
+
+Sitemap: https://rebuiltbyscarbs.co.uk/sitemap.xml
