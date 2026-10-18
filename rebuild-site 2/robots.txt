@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /guide/
+Disallow: /call-booked.html
+
+Sitemap: https://www.yourdomain.com/sitemap.xml
