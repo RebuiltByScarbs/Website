@@ -403,7 +403,7 @@
             <input type="range" class="rate-slider" id="rate" min="0" max="2" step="1" value="1">
           </div>
           <div class="slider-labels"><span>0.5%</span><span>1%</span><span>1.5%</span></div>
-          <p class="field-hint">This is the percentage of your bodyweight you're aiming to lose each week. Faster isn't automatically better — 1.5% means a bigger deficit, more hunger, and more muscle loss risk. 0.5% suits someone new to dieting or with little to lose; 1.5% suits someone with more to lose and strong adherence history. If your chosen rate would mean a cut that's too big for your maintenance calories, it's capped automatically and your results will tell you the rate you'll actually get.</p>
+          <p class="field-hint">This is the percentage of your bodyweight you're aiming to lose each week. Faster isn't automatically better — 1.5% means a bigger deficit, more hunger, and more muscle loss risk. 0.5% suits someone new to dieting or with little to lose; 1.5% suits someone with more to lose and strong adherence history.</p>
         </div>
 
         <div class="wizard-nav">
@@ -700,12 +700,6 @@
   });
   document.getElementById('restartBtn').addEventListener('click', ()=> goToStep(1));
 
-  // DEFICIT CAP — edit these to change how hard the calculator will cut.
-  // The rate slider asks for a % of bodyweight per week, but for heavier or less active
-  // clients that can mean a deficit close to half of maintenance. So each setting is also
-  // capped at a % of maintenance calories (0.5% / 1% / 1.5%).
-  const MAX_DEFICIT_PCT = [0.15, 0.25, 0.30];   // of maintenance: 0.5%, 1%, 1.5% settings
-
   function calculate(){
     const sex = document.getElementById('sex').value;
     const age = parseFloat(document.getElementById('age').value) || 0;
@@ -732,19 +726,12 @@
     const tdee = bmr * activity;
     let target, rateNote = "";
     if(goal === 'loss'){
-      const rateIdx = parseInt(rateSlider.value);
       const wantedKg = weight * rate;
-      const wantedDeficit = (wantedKg * 7700) / 7;            // ~7700 kcal per kg of fat
-      const maxDeficit = tdee * MAX_DEFICIT_PCT[rateIdx];     // ceiling for this setting
-      const dailyDeficit = Math.min(wantedDeficit, maxDeficit);
+      const dailyDeficit = (wantedKg * 7700) / 7;   // ~7700 kcal per kg of fat
       target = tdee - dailyDeficit;
-
-      const actualKg = (dailyDeficit * 7) / 7700;
-      const actualPct = weight ? (actualKg / weight) * 100 : 0;
+      const actualKg = wantedKg;
+      const actualPct = rate * 100;
       rateNote = ` Daily deficit of ~${Math.round(dailyDeficit)} kcal off maintenance (${Math.round(dailyDeficit / tdee * 100)}%), which works out at roughly ${actualKg.toFixed(2)}kg (${actualPct.toFixed(1)}%) of bodyweight per week.`;
-      if(wantedDeficit > maxDeficit + 1){
-        rateNote += ` Your chosen rate would need a ~${Math.round(wantedDeficit)} kcal cut, which is too steep for your maintenance, so it's capped at ${Math.round(MAX_DEFICIT_PCT[rateIdx]*100)}% of maintenance. Pushing harder than this costs you muscle, training quality and adherence.`;
-      }
     } else if(goal === 'gain'){
       target = tdee * 1.1;
     } else {
