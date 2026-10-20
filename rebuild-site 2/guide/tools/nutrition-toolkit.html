@@ -138,8 +138,6 @@
   }
   .slider-labels{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:12px;text-transform:uppercase;letter-spacing:0.04em;color:var(--text-dim);margin-bottom:10px;}
   .slider-labels span{cursor:pointer;padding:8px 0;}
-  .low-warn{margin:12px 0 0;padding:12px 14px;border-left:3px solid var(--carb);background:rgba(201,138,46,0.12);font-size:14px;line-height:1.5;color:var(--text);}
-  .low-warn[hidden]{display:none;}
 
   /* DAY SELECTOR */
   .day-selector{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px;}
@@ -416,7 +414,6 @@
       <div class="wizard-step" data-step="3">
         <div class="results" id="results"></div>
         <p class="note" id="formulaNote"></p>
-        <p class="low-warn" id="lowWarn" hidden></p>
 
         <div class="wizard-nav">
           <button type="button" class="btn-back" data-back>← Back</button>
@@ -762,15 +759,6 @@
       </div>
     `;
     document.getElementById('formulaNote').innerText = formulaText + rateNote;
-
-    // Soft warning only — nothing is blocked or changed. Flags a target below estimated BMR.
-    const lowWarn = document.getElementById('lowWarn');
-    if(target < bmr){
-      lowWarn.textContent = `Heads up: your target (${Math.round(target)} kcal) is below your estimated BMR (${Math.round(bmr)} kcal). That's not off limits, but it's a hard place to train, recover and stay consistent from. Expect more hunger and lower energy, so keep protein high and consider a slower rate if it feels rough.`;
-      lowWarn.hidden = false;
-    } else {
-      lowWarn.hidden = true;
-    }
 
     renderWeeklyPlan(target);
   }
