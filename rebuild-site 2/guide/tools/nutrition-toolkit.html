@@ -138,6 +138,8 @@
   }
   .slider-labels{display:flex;justify-content:space-between;font-family:var(--font-mono);font-size:12px;text-transform:uppercase;letter-spacing:0.04em;color:var(--text-dim);margin-bottom:10px;}
   .slider-labels span{cursor:pointer;padding:8px 0;}
+  .low-warn{margin:12px 0 0;padding:12px 14px;border-left:3px solid var(--carb);background:rgba(201,138,46,0.12);font-size:14px;line-height:1.5;color:var(--text);}
+  .low-warn[hidden]{display:none;}
 
   /* DAY SELECTOR */
   .day-selector{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px;}
@@ -397,11 +399,11 @@
         <div id="rateRow" style="display:none;">
           <label>Rate of fat loss</label>
           <div class="slider-wrap">
-            <div class="slider-value-bubble" id="rateBubble">Medium — 1.0%/week</div>
+            <div class="slider-value-bubble" id="rateBubble">1.0% per week</div>
             <input type="range" class="rate-slider" id="rate" min="0" max="2" step="1" value="1">
           </div>
-          <div class="slider-labels"><span>Slow</span><span>Medium</span><span>Aggressive</span></div>
-          <p class="field-hint">Faster isn't automatically better — Aggressive means a bigger deficit, more hunger, and more muscle loss risk. Slow suits someone new to dieting or with little to lose; Aggressive suits someone with more to lose and strong adherence history. If your chosen rate would mean a cut that's too big for your maintenance calories, it's capped automatically and your results will tell you the rate you'll actually get.</p>
+          <div class="slider-labels"><span>0.5%</span><span>1%</span><span>1.5%</span></div>
+          <p class="field-hint">This is the percentage of your bodyweight you're aiming to lose each week. Faster isn't automatically better — 1.5% means a bigger deficit, more hunger, and more muscle loss risk. 0.5% suits someone new to dieting or with little to lose; 1.5% suits someone with more to lose and strong adherence history. If your chosen rate would mean a cut that's too big for your maintenance calories, it's capped automatically and your results will tell you the rate you'll actually get.</p>
         </div>
 
         <div class="wizard-nav">
@@ -414,6 +416,7 @@
       <div class="wizard-step" data-step="3">
         <div class="results" id="results"></div>
         <p class="note" id="formulaNote"></p>
+        <p class="low-warn" id="lowWarn" hidden></p>
 
         <div class="wizard-nav">
           <button type="button" class="btn-back" data-back>← Back</button>
@@ -632,7 +635,7 @@
 
   // Rate slider — 3 discrete stops
   const RATE_VALUES = [0.005, 0.01, 0.015];
-  const RATE_LABELS = ["Slow — 0.5%/week", "Medium — 1.0%/week", "Aggressive — 1.5%/week"];
+  const RATE_LABELS = ["0.5% per week", "1.0% per week", "1.5% per week"];
   const rateSlider = document.getElementById('rate');
   const rateBubble = document.getElementById('rateBubble');
   function updateRateBubble(){
@@ -700,8 +703,8 @@
   // DEFICIT CAP — edit these to change how hard the calculator will cut.
   // The rate slider asks for a % of bodyweight per week, but for heavier or less active
   // clients that can mean a deficit close to half of maintenance. So each setting is also
-  // capped at a % of maintenance calories (Slow / Medium / Aggressive).
-  const MAX_DEFICIT_PCT = [0.15, 0.25, 0.30];   // of maintenance: Slow, Medium, Aggressive
+  // capped at a % of maintenance calories (0.5% / 1% / 1.5%).
+  const MAX_DEFICIT_PCT = [0.15, 0.25, 0.30];   // of maintenance: 0.5%, 1%, 1.5% settings
 
   function calculate(){
     const sex = document.getElementById('sex').value;
@@ -772,6 +775,15 @@
       </div>
     `;
     document.getElementById('formulaNote').innerText = formulaText + rateNote;
+
+    // Soft warning only — nothing is blocked or changed. Flags a target below estimated BMR.
+    const lowWarn = document.getElementById('lowWarn');
+    if(target < bmr){
+      lowWarn.textContent = `Heads up: your target (${Math.round(target)} kcal) is below your estimated BMR (${Math.round(bmr)} kcal). That's not off limits, but it's a hard place to train, recover and stay consistent from. Expect more hunger and lower energy, so keep protein high and consider a slower rate if it feels rough.`;
+      lowWarn.hidden = false;
+    } else {
+      lowWarn.hidden = true;
+    }
 
     renderWeeklyPlan(target);
   }
