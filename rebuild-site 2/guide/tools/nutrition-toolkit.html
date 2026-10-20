@@ -788,6 +788,7 @@
 
     // Bank a flat 100kcal off each non-social day and move it onto the social day(s).
     const BANK_PER_DAY = 100;
+    const EXTRA_SPLIT = {carb:0.80, protein:0.10, fat:0.10};   // how the banked calories are spent on a social day
     const bankPerDay = numSocial === 0 ? 0 : BANK_PER_DAY;
 
     let dayCals = {};
@@ -806,10 +807,20 @@
       const cal = dayCals[d];
       const isSocial = selectedDays.has(d);
       const barPct = Math.round((cal / maxCal) * 100);
-      // Macros for this day: the goal's split applied to that day's calories
-      const dp = Math.round(cal * split.protein / 4);
-      const dc = Math.round(cal * split.carb / 4);
-      const df = Math.round(cal * split.fat / 9);
+      // Macros for this day. Normal days use the goal's split. On a social day the
+      // base target keeps the normal split and the EXTRA banked calories go mostly
+      // to carbs (EXTRA_SPLIT), with the rest shared between protein and fat.
+      let dp, dc, df;
+      if(isSocial && cal > target){
+        const extra = cal - target;
+        dp = Math.round((target * split.protein + extra * EXTRA_SPLIT.protein) / 4);
+        dc = Math.round((target * split.carb + extra * EXTRA_SPLIT.carb) / 4);
+        df = Math.round((target * split.fat + extra * EXTRA_SPLIT.fat) / 9);
+      } else {
+        dp = Math.round(cal * split.protein / 4);
+        dc = Math.round(cal * split.carb / 4);
+        df = Math.round(cal * split.fat / 9);
+      }
       return `<div class="day-row ${isSocial ? 'is-social' : ''}" style="animation-delay:${i * 0.06}s">
         <span class="day-name">${d}${isSocial ? ' •' : ''}</span>
         <span class="day-bar-wrap"><span class="day-bar" style="width:${barPct}%"></span></span>
