@@ -1,0 +1,914 @@
+[
+ {
+  "cat": "Back / Pull",
+  "ex": "Cable Pullover",
+  "inj": "Shoulder",
+  "r1": "Switch to Dual Rope Cable Pullover (neutral grip)",
+  "r2": "Single Arm Lat Pulldown",
+  "why": "Full overhead flexion with internal rotation narrows the space under the acromion. Cut the top range first, then swap the long-lever pattern for a short-lever pull."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Chest Supported Row",
+  "inj": "Elbow / Wrist",
+  "r1": "Use Wrist Wraps",
+  "r2": "DB Pullover",
+  "why": "Grip is what irritates elbow and wrist tendons. Straps take the forearm out of it while the back still gets the work."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "DB Pullover",
+  "inj": "Shoulder",
+  "r1": "2 Point DB Row",
+  "r2": "2 Point DB Row",
+  "why": "A heavy DB at end-range overhead is the likely uncomfortable for a rotator cuff. A neutral grip DB Row will be more appropriate"
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Deadlift",
+  "inj": "Lower Back",
+  "r1": "Barbell Rack Pull",
+  "r2": "KB RDL",
+  "why": "Rack pulls help pre-create tension in the back to prevent too much form breakdown/spinal flexion"
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Deadlift",
+  "inj": "Hip",
+  "r1": "Raised deadlift (bar on stacked plates, mid-shin)",
+  "r2": "Barbell hip thrust",
+  "why": "Deep hip flexion at the bottom is what pinches an irritated hip. Raising the bar cuts the flexion angle; the hip thrust trains the same muscles with the hip barely flexed."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Deadlift",
+  "inj": "Elbow / Wrist",
+  "r1": "Double overhand with lifting straps",
+  "r2": "Ensure elbows are locked out and grip is being hooked onto the bar, not squeezing",
+  "why": "Mixed grip loads the supinated arm's biceps tendon, heavy grip loads the forearm. Straps take the grip out"
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Inverted Row",
+  "inj": "Shoulder",
+  "r1": "Higher bar (more upright body), elbows ~45°",
+  "r2": "TRX Row",
+  "why": "A more upright angle cuts the load. The TRX helps maintain neutral elbow position to reduce shoulder stress"
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Inverted Row",
+  "inj": "Elbow / Wrist",
+  "r1": "TRX Row",
+  "r2": "DB 3 Point Row",
+  "why": "A fixed bar locks the wrist and forearm into one position. TRX let them rotate freely. If that still hurts, go light and slow on the DB Row"
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Lat Pulldowns",
+  "inj": "Shoulder",
+  "r1": "Single Arm Lat Pulldown",
+  "r2": "3 Point Row",
+  "why": "Wide overhand plus full stretch at the top is the aggravating combo. Neutral grip and trimming the top range first, then remove overhead entirely."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Lat Pulldowns",
+  "inj": "Elbow",
+  "r1": "Try using straps initially",
+  "r2": "SA Lat pulldown, D handle, lighter, 3-sec lowering",
+  "why": "Straps offload the grip. Slow, controlled loading is what tendons tolerate and adapt to best."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Pull Ups",
+  "inj": "Shoulder",
+  "r1": "TRX Row",
+  "r2": "3 Point Row",
+  "why": "Neutral grip keeps the shoulder in a friendlier rotation. The DB Row lets you pick a load that isn't your whole bodyweight."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Pull Ups",
+  "inj": "Elbow",
+  "r1": "Foot Assisted Pull Up",
+  "r2": "TRX Row",
+  "why": "Pull ups are a common elbow irritant. The foot assistance takes some of your bodyweight off; the TRX Row allows a neutral position which should help"
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "SA Dumbbell Row",
+  "inj": "Lower Back",
+  "r1": "Chest supported DB row",
+  "r2": "Half-kneeling band row",
+  "why": "The unsupported, rotated hinge position is what bothers the back. Chest support removes the spinal demand completely."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "SA Dumbbell Row",
+  "inj": "Shoulder",
+  "r1": "Reduced range: elbow tucked, stop at torso line, lighter",
+  "r2": "Band row, neutral grip, elbow tucked",
+  "why": "Pulling the elbow way past the torso drives the shoulder forward. Shorten the range, then move to a band, which gets lighter at the start of the pull."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "SA Dumbbell Row",
+  "inj": "Elbow / Wrist",
+  "r1": "Add lifting straps",
+  "r2": "DB Pullover",
+  "why": "Take the grip demand out and the back work stays exactly the same."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "SA Lat Pulldown",
+  "inj": "Shoulder",
+  "r1": "Move slightly further back to prevent reaching overhead",
+  "r2": "3 Point Row",
+  "why": "Same logic as the bilateral pulldown. Cut the stretched overhead start, then take the arm out of overhead completely."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "T-Bar Row",
+  "inj": "Lower Back",
+  "r1": "Chest supported DB row (incline bench)",
+  "r2": "Half-kneeling band row",
+  "why": "A bent-over row asks the back to hold an isometric hinge under load. Support the chest and that demand is gone."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "T-Bar Row",
+  "inj": "Shoulder",
+  "r1": "Chest Supported DB Row",
+  "r2": "2 Point Row",
+  "why": "Wide flared elbows put more stress through the front of the shoulder. Tuck and neutralise first."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "TRX Row",
+  "inj": "Shoulder",
+  "r1": "More upright body angle, neutral grip",
+  "r2": "Band row",
+  "why": "Body angle is the load dial on TRX. Stand taller before changing the exercise."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "TRX Row",
+  "inj": "Elbow",
+  "r1": "More upright body angle",
+  "r2": "Band row, light, high reps",
+  "why": "Less load through the grip. Light, higher-rep work keeps the tendon loaded without flaring it."
+ },
+ {
+  "cat": "Back / Pull",
+  "ex": "Upper Back Pulldown",
+  "inj": "Shoulder",
+  "r1": "SA Lat Pulldown",
+  "r2": "Chest Supported DB Row",
+  "why": "Flared elbows with overhead arms are a common impingement position. Tuck the elbows first, then move the arms below shoulder height."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "DB Floor Press",
+  "inj": "Wrist",
+  "r1": "Neutral grip floor press",
+  "r2": "Think 'punch the sky' Keep weight through the heel of the hand (Safely)",
+  "why": "Neutral grip stacks the wrist over the forearm. Holding the bar end keeps the wrist straight, and the angle is lighter."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "DB Fly",
+  "inj": "Shoulder",
+  "r1": "Incline DB Bench Press",
+  "r2": "Floor Press",
+  "why": "The stretched bottom of a fly with a long lever arm is tough on the front of the shoulder. The floor caps the range; the press shortens the lever."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "DB Fly",
+  "inj": "Elbow",
+  "r1": "Bend the elbows more (fly-press hybrid)",
+  "r2": "Floor Press",
+  "why": "A long lever puts a big load on the inner elbow. Bending the arms shortens it; the press takes it away."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Flat Bench Press",
+  "inj": "Shoulder",
+  "r1": "Flat DB bench press",
+  "r2": "Floor Press",
+  "why": "A barbell fixes your hands. DBs let the shoulder find its own path; neutral grip plus the floor cuts rotation and bottom-end stretch."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Flat Bench Press",
+  "inj": "Wrist",
+  "r1": "Wrists stacked, bar in heel of the hand",
+  "r2": "Neutral-grip DB bench press",
+  "why": "Most bench wrist pain is the bar sitting in the fingers and bending the wrist back. Fix the position before swapping."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Flat Bench Press",
+  "inj": "Elbow",
+  "r1": "Flat DB bench press",
+  "r2": "DB Floor Press",
+  "why": "A fixed bar can force the elbows into a position they don't like. DBs free it up; the floor caps the range and neutral grip eases the elbow."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Flat DB Bench",
+  "inj": "Shoulder",
+  "r1": "Neutral-grip DB bench press",
+  "r2": "Neutral-grip DB floor press",
+  "why": "Neutral grip reduces the internal rotation at the bottom. The floor then caps the range."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Flat DB Bench",
+  "inj": "Wrist",
+  "r1": "Keep weight in the heel of the hand, think 'punch the sky'",
+  "r2": "Neutral-grip DB floor press, lighter",
+  "why": "Neutral grip lets the wrist sit in line with the forearm."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Incline DB Bench",
+  "inj": "Shoulder",
+  "r1": "Flat DB Bench Press",
+  "r2": "Floor Press",
+  "why": "The steeper the incline, the more the press becomes overhead. Drop the angle first, then go flat."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Press Up",
+  "inj": "Shoulder",
+  "r1": "Bar Assisted Press Up",
+  "r2": "Neutral-grip DB floor press",
+  "why": "Incline reduces the % of bodyweight you press. The floor press gives full control of load and range."
+ },
+ {
+  "cat": "Chest / Push",
+  "ex": "Press Up",
+  "inj": "Wrist",
+  "r1": "Press ups on DBs (neutral wrist)",
+  "r2": "Floor Press",
+  "why": "Flat hands force the wrist into full extension under load. Handles keep it straight."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "BB OHP",
+  "inj": "Shoulder",
+  "r1": "Landmine press",
+  "r2": "Neutral-grip DB bench press",
+  "why": "The landmine's angled path avoids end-range overhead. If that still bites, move to a flat press with neutral grip."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "BB OHP",
+  "inj": "Lower Back",
+  "r1": "Seated DB Shoulder Press",
+  "r2": "Half-kneeling landmine press",
+  "why": "Standing OHP invites lower back arching to get the bar overhead. A backrest stops it; half-kneeling locks the pelvis."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "BB OHP",
+  "inj": "Wrist",
+  "r1": "Neutral-grip DB shoulder press",
+  "r2": "Landmine press",
+  "why": "The barbell holds the wrist in extension. Neutral grip, then a lower angle."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "DB Shoulder Press",
+  "inj": "Shoulder",
+  "r1": "Flat DB bench press",
+  "r2": "Neutral-grip DB bench press",
+  "why": "Overhead position is usually the problem with cuff pain. Move to a flat press, then neutral grip to reduce rotation further."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "DB Shoulder Press",
+  "inj": "Lower Back",
+  "r1": "Seated DB press, back supported, neutral grip",
+  "r2": "Half-kneeling landmine press",
+  "why": "Stops the lower back arching to compensate for overhead range."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "DB Shoulder Press",
+  "inj": "Elbow",
+  "r1": "Neutral-grip DB shoulder press",
+  "r2": "Landmine press",
+  "why": "Neutral grip keeps the forearm in a friendlier position; the landmine lowers the load."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "1/2 Kneeling Landmine Press",
+  "inj": "Shoulder",
+  "r1": "Standing Landmine Press",
+  "r2": "Floor Press",
+  "why": "The landmine is already a shoulder-friendly option. If it still hurts, move the press further away from overhead."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "1/2 Kneeling Landmine Press",
+  "inj": "Lower Back",
+  "r1": "Half-kneeling landmine press",
+  "r2": "Seated incline DB press",
+  "why": "Half-kneeling with a glute squeeze locks the pelvis and stops overextension."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "Lateral Raise",
+  "inj": "Shoulder",
+  "r1": "Neutral Grip Front Raise",
+  "r2": "",
+  "why": "Raising in the scapular plane with thumbs up opens space under the acromion. Isometrics let you load a grumpy tendon with less pain."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "Serrano Press",
+  "inj": "Shoulder",
+  "r1": "Banded Y Raise",
+  "r2": "Side-lying DB external rotation",
+  "why": "The overhead finish is the aggravating part. Keep the external rotation work, which is exactly what the cuff wants."
+ },
+ {
+  "cat": "Shoulders",
+  "ex": "YTW Raise",
+  "inj": "Shoulder",
+  "r1": "Drop the Y: T + W only, chest supported on incline",
+  "r2": "Banded Y Raise",
+  "why": "The Y position is the most overhead. Cut it, then drop below shoulder height."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Barbell RDL",
+  "inj": "Lower Back",
+  "r1": "DB RDL, stop at the knee",
+  "r2": "KB Deadlift (From Plate)",
+  "why": "Less load, shorter lever and shorter range"
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Barbell RDL",
+  "inj": "Hip",
+  "r1": "DB RDL, stop at the knee",
+  "r2": "Barbell hip thrust",
+  "why": "Cutting the range limits how deep into hip flexion you go, which is what pinches. The hip thrust trains the same muscles with barely any flexion."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Barbell Squat",
+  "inj": "Knee",
+  "r1": "Goblet squat to box (at or above parallel)",
+  "r2": "Spanish squat",
+  "why": "Knee load rises with depth (Escamilla 2001). A box sets the range; the Spanish squat is a staple for patellar pain."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Barbell Squat",
+  "inj": "Lower Back",
+  "r1": "Safety squat bar squat",
+  "r2": "Goblet Squat",
+  "why": "The SSB keeps you more upright than a straight bar, which cuts spinal shear. Goblet squats drop the load right down and keep you upright too."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Barbell Squat",
+  "inj": "Hip",
+  "r1": "Box Squat to limit range",
+  "r2": "Goblet squat to high box",
+  "why": "Deep flexion pinches. A wider stance and toes out give the hip room; a box stops you going too deep."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Barbell Squat",
+  "inj": "Shoulder",
+  "r1": "Safety bar squat",
+  "r2": "Goblet squat",
+  "why": "Low bar or back squat demands a lot of external rotation. The safety bar or front-loading removes that."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "BB Hip Thrust",
+  "inj": "Lower Back",
+  "r1": "Maintain Neutral Spine, don't let hips move independently from spine",
+  "r2": "SL Glute Bridge",
+  "why": "The floor bridge has less range for the lower back to overextend into."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Bulgarian Split Squat",
+  "inj": "Knee",
+  "r1": "Split squat (rear foot on floor), reduced range",
+  "r2": "Split squat ISO",
+  "why": "Rear foot elevation drives more load into the front knee. Flatten it out, then load it isometrically."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Bulgarian Split Squat",
+  "inj": "Hip",
+  "r1": "Lower rear foot height",
+  "r2": "Low step ups",
+  "why": "The rear hip gets a big hip flexor stretch under load. Lower the foot, then take the stretch out."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Deficit Reverse Lunge",
+  "inj": "Knee",
+  "r1": "Reverse lunge (no deficit)",
+  "r2": "Split squat, reduced range",
+  "why": "Remove the extra depth, then remove the stepping."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Deficit Reverse Lunge",
+  "inj": "Hip",
+  "r1": "Reverse lunge (no deficit)",
+  "r2": "Step ups",
+  "why": "The deficit is what takes the hip into deep flexion. Remove it first."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Dumbbell RDL",
+  "inj": "Lower Back",
+  "r1": "Reduce range to knee height, 3-sec lowering",
+  "r2": "",
+  "why": "Shorter range means a shorter lever on the spine; slow lowering means control over the flaring end range."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Dumbbell RDL",
+  "inj": "Hip",
+  "r1": "Reduce range to knee height",
+  "r2": "Glute bridge",
+  "why": "Less hip flexion at the bottom, then remove flexion entirely."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "FFE Split Squat",
+  "inj": "Knee",
+  "r1": "Split squat (flat)",
+  "r2": "Split squat ISO",
+  "why": "Front-foot elevation increases depth and knee travel. Flatten, then isometric."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Hamstring Glute Bridge",
+  "inj": "Lower Back",
+  "r1": "Standard glute bridge (feet on floor)",
+  "r2": "Bodyweight glute bridge hold",
+  "why": "Longer lever with feet on the bench. Bring the feet back in to shorten it."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Lateral Lunge",
+  "inj": "Knee",
+  "r1": "Lateral lunge to a box (reduced depth)",
+  "r2": "Goblet squat",
+  "why": "The box controls depth; the goblet squat removes the lateral shift."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Lateral Lunge",
+  "inj": "Hip",
+  "r1": "Reduced depth lateral lunge",
+  "r2": "Reverse Lunge",
+  "why": "Groin and inner hip issues hate the big stretched lunge. Reduce it, then use a low-range abductor exercise."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Reverse Lunge",
+  "inj": "Knee",
+  "r1": "Split squat (static), reduced range",
+  "r2": "Split squat ISO",
+  "why": "Static split squats remove the deceleration demand. Isometrics are well tolerated with patellar tendon pain (Rio 2015)."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Reverse Lunge",
+  "inj": "Hip",
+  "r1": "Split squat, shorter stance",
+  "r2": "Step ups",
+  "why": "Shorter stance means less hip flexor stretch on the back leg."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "SL RDL",
+  "inj": "Lower Back",
+  "r1": "Staggered Stance RDL",
+  "r2": "DB RDL",
+  "why": "Removing the balance demand stops the back from compensating."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "SL RDL",
+  "inj": "Hip",
+  "r1": "Staggered Stance RDL",
+  "r2": "Glute bridge",
+  "why": "Staggered stance keeps it unilateral but reduces the hip stability demand."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Split Squat",
+  "inj": "Knee",
+  "r1": "Reduced range (to a block under the back knee)",
+  "r2": "Split squat ISO",
+  "why": "A pad controls depth; the isometric keeps the knee loaded without the pain-provoking movement."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Split Squat",
+  "inj": "Hip",
+  "r1": "Shorter stance, reduced range",
+  "r2": "Step ups",
+  "why": "Less hip flexor stretch on the back leg."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Step Ups",
+  "inj": "Knee",
+  "r1": "Lower box (knee above 90° at the top)",
+  "r2": "Wall sit",
+  "why": "A lower box means less knee flexion under load. If it still hurts, use an isometric."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Elevated Heel Goblet Squat",
+  "inj": "Knee",
+  "r1": "Flat-foot goblet squat to box",
+  "r2": "Spanish squat",
+  "why": "Heel elevation drives more knee forward = more patellar load. Flatten the feet and cap the depth."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "SL Calf Raise",
+  "inj": "Ankle / Achilles",
+  "r1": "Double-leg calf raise",
+  "r2": "Isometric calf raise hold",
+  "why": "Split the load across both legs, then hold. Load the Achilles, don't skip it: tendons respond to load (Silbernagel 2007)."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "SL Get Up",
+  "inj": "Knee",
+  "r1": "Higher box",
+  "r2": "Bilateral box squat",
+  "why": "Box height is the load dial. Go higher first, then use both legs."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Spanish Squat",
+  "inj": "Knee",
+  "r1": "Reduced depth",
+  "r2": "Spanish squat hold (isometric)",
+  "why": "Already a knee rehab staple. Reduce depth, then hold still."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Split Squat ISO",
+  "inj": "Knee",
+  "r1": "Higher position (less knee bend)",
+  "r2": "Spanish squat hold (band), high position",
+  "why": "Isometrics reduce patellar tendon pain in the short term. The band lets you sit back and take load off the front of the knee."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Walking Lunge",
+  "inj": "Knee",
+  "r1": "Reverse lunge",
+  "r2": "Split squat",
+  "why": "Remove the forward braking force, then remove the stepping."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Walking Lunge",
+  "inj": "Hip",
+  "r1": "Reverse lunge, shorter stride",
+  "r2": "Split squat, reduced range",
+  "why": "Less stride length means less hip flexor stretch and hip flexion demand."
+ },
+ {
+  "cat": "Lower Body",
+  "ex": "Wall Sit",
+  "inj": "Knee",
+  "r1": "Higher wall sit (60° knee bend)",
+  "r2": "Spanish squat hold (band), high position",
+  "why": "Less knee bend means less patellofemoral compression. The band shifts the load away from the front of the knee."
+ },
+ {
+  "cat": "Core",
+  "ex": "Aleknas",
+  "inj": "Lower Back",
+  "r1": "Dead bug",
+  "r2": "",
+  "why": "Loaded flexion and rotation is a lower back irritant. Remove the rotation, then work anti-extension."
+ },
+ {
+  "cat": "Core",
+  "ex": "Bird/Dog",
+  "inj": "Wrist",
+  "r1": "On fists or holding DBs",
+  "r2": "Dead bug",
+  "why": "Same core demand, lying on your back."
+ },
+ {
+  "cat": "Core",
+  "ex": "Crunches",
+  "inj": "Lower Back",
+  "r1": "Dead Bug",
+  "r2": "Hollow Hold",
+  "why": "Dead bugs remove lumbar flexion"
+ },
+ {
+  "cat": "Core",
+  "ex": "Dead Bug",
+  "inj": "Lower Back",
+  "r1": "Heel taps (knees bent, legs only)",
+  "r2": "Dead bug hold (arms and legs at 90°)",
+  "why": "A shorter lever, then hold."
+ },
+ {
+  "cat": "Core",
+  "ex": "Farmers Carry",
+  "inj": "Elbow / Wrist",
+  "r1": "D Ball Carry at waist",
+  "r2": "",
+  "why": ""
+ },
+ {
+  "cat": "Core",
+  "ex": "Hollow Body Hold",
+  "inj": "Lower Back",
+  "r1": "Bend knees slightly more",
+  "r2": "Plank",
+  "why": "Shorter levers mean less extension pull on the lower back."
+ },
+ {
+  "cat": "Core",
+  "ex": "Pallof Hold",
+  "inj": "Lower Back",
+  "r1": "Pallof Press",
+  "r2": "",
+  "why": ""
+ },
+ {
+  "cat": "Core",
+  "ex": "Pallof Hold",
+  "inj": "Shoulder",
+  "r1": "Hands closer to chest (elbows bent)",
+  "r2": "Side plank",
+  "why": "A shorter lever means less shoulder demand."
+ },
+ {
+  "cat": "Core",
+  "ex": "Plank Shoulder Taps",
+  "inj": "Shoulder",
+  "r1": "Drop to knees",
+  "r2": "Forearm plank",
+  "why": "Less load through the supporting arm."
+ },
+ {
+  "cat": "Core",
+  "ex": "Plank Shoulder Taps",
+  "inj": "Lower Back",
+  "r1": "Wider foot stance",
+  "r2": "",
+  "why": "A wider base means less rotational demand."
+ },
+ {
+  "cat": "Core",
+  "ex": "Russian Twist",
+  "inj": "Lower Back",
+  "r1": "Pallof Hold",
+  "r2": "",
+  "why": "Loaded flexion plus rotation is one of the worst combos for an irritated back. Swap to controlled rotation, then anti-rotation."
+ },
+ {
+  "cat": "Core",
+  "ex": "Side Plank",
+  "inj": "Shoulder",
+  "r1": "Drop to knees",
+  "r2": "Suitcase carry",
+  "why": "Less load through the shoulder, then an anti-lateral flexion exercise with no shoulder load."
+ },
+ {
+  "cat": "Core",
+  "ex": "Sit Ups",
+  "inj": "Lower Back",
+  "r1": "Dead Bug",
+  "r2": "",
+  "why": ""
+ },
+ {
+  "cat": "Core",
+  "ex": "Suitcase Carry",
+  "inj": "Elbow / Wrist",
+  "r1": "Pallof Hold",
+  "r2": "Side plank",
+  "why": "Keep the anti-lateral flexion, lose the grip."
+ },
+ {
+  "cat": "Core",
+  "ex": "Suitcase Carry",
+  "inj": "Lower Back",
+  "r1": "Farmers carry (bilateral, symmetrical)",
+  "r2": "Side plank",
+  "why": "Asymmetric load can flare a sensitive back. Balance it out, then go lighter."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Bicep Curls",
+  "inj": "Elbow",
+  "r1": "Hammer curl",
+  "r2": "Isometric curl hold at 90°",
+  "why": "Neutral grip reduces distal biceps stress. Isometrics load the tendon with less pain."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Bicep Curls",
+  "inj": "Wrist",
+  "r1": "Hammer curl",
+  "r2": "Isometric hammer curl hold at 90°",
+  "why": "A straight bar forces full supination. Neutral grip lets the wrist sit naturally; the isometric hold loads the arm with no movement at the wrist."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Bicep Curls",
+  "inj": "Shoulder",
+  "r1": "Preacher curl over an incline bench",
+  "r2": "Hammer curl",
+  "why": "Front-of-shoulder pain can come from the long head of biceps. A preacher curl reduces its stretch."
+ },
+ {
+  "cat": "Arms",
+  "ex": "DB Skull Crusher",
+  "inj": "Elbow",
+  "r1": "Rope pushdown",
+  "r2": "Close neutral-grip DB floor press",
+  "why": "Deep elbow flexion under load is what irritates the triceps tendon. Pushdowns reduce it; a close press trains triceps with far less elbow stress."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Dual Rope Tricep Extension",
+  "inj": "Elbow",
+  "r1": "Lighter, reduced range, 3-sec lowering",
+  "r2": "",
+  "why": "Slow, controlled loading, then isometric."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Flat Bar Tricep Extension",
+  "inj": "Wrist",
+  "r1": "Dual Rope",
+  "r2": "",
+  "why": "A flat bar locks the wrists. A rope lets them sit naturally."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Flat Bar Tricep Extension",
+  "inj": "Elbow",
+  "r1": "Rope pushdown",
+  "r2": "",
+  "why": "Freer wrist and forearm position, then isometric."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Hammer Curls",
+  "inj": "Elbow / Wrist",
+  "r1": "Lighter DB hammer curl, 3-sec lowering",
+  "r2": "",
+  "why": "Heavy grip loads the forearm tendons. Go lighter and slower, then use an isometric hold."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Incline Curls",
+  "inj": "Shoulder",
+  "r1": "Standing DB curl",
+  "r2": "Preacher curl over an incline bench",
+  "why": "Incline curls put the long head of biceps into a big stretch. Take it out."
+ },
+ {
+  "cat": "Arms",
+  "ex": "Incline Curls",
+  "inj": "Elbow",
+  "r1": "Hammer curl",
+  "r2": "",
+  "why": "The stretched bottom position is where distal biceps stress peaks."
+ },
+ {
+  "cat": "Arms",
+  "ex": "SA Preacher Curl",
+  "inj": "Elbow",
+  "r1": "Stop short of full lockout at the bottom",
+  "r2": "",
+  "why": "The bottom of a preacher curl is peak strain for the distal biceps tendon"
+ },
+ {
+  "cat": "Arms",
+  "ex": "Zottman Curls",
+  "inj": "Elbow / Wrist",
+  "r1": "Hammer curl",
+  "r2": "",
+  "why": "A pronated lowering loads the forearm extensors (tennis elbow territory). Remove the pronation."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Box Jump",
+  "inj": "Knee",
+  "r1": "Low box, step down",
+  "r2": "Slam ball slams",
+  "why": "Lower the landing forces first, then keep the power work with no landing at all."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Box Jump",
+  "inj": "Ankle / Achilles",
+  "r1": "Low box, step down",
+  "r2": "Slam ball slams",
+  "why": "The Achilles takes a lot of load on take-off and landing. Reduce it, then keep the power work without leaving the floor."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Burpee",
+  "inj": "Wrist",
+  "r1": "Hands on DBs or a bench",
+  "r2": "",
+  "why": "Neutral wrist and less bodyweight through the hands."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Burpee",
+  "inj": "Knee",
+  "r1": "Plank Walkout",
+  "r2": "",
+  "why": ""
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "D Ball to Shoulder",
+  "inj": "Lower Back",
+  "r1": "Lighter ball",
+  "r2": "D Ball bear hug carry",
+  "why": "A box reduces the flexed-spine pickup. The carry keeps the hug position without the lift."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "D Ball to Shoulder",
+  "inj": "Shoulder",
+  "r1": "D Ball to chest (no shoulder finish)",
+  "r2": "D Ball bear hug carry",
+  "why": "The shoulder load is at the top. Stop at the chest."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "DB Snatch",
+  "inj": "Shoulder",
+  "r1": "DB Clean",
+  "r2": "",
+  "why": ""
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Kettlebell Swings",
+  "inj": "Lower Back",
+  "r1": "KB deadlift",
+  "r2": "",
+  "why": ""
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Kettlebell Swings",
+  "inj": "Hip",
+  "r1": "KB deadlift",
+  "r2": "Glute bridge",
+  "why": "Remove the ballistic end, then remove flexion."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Plate GTO",
+  "inj": "Lower Back",
+  "r1": "Reduce Load",
+  "r2": "",
+  "why": ""
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Wall Ball",
+  "inj": "Shoulder",
+  "r1": "DB Clean",
+  "r2": "",
+  "why": "Remove the overhead throw first."
+ },
+ {
+  "cat": "Conditioning / Power",
+  "ex": "Wall Ball",
+  "inj": "Knee",
+  "r1": "Reduce ROM",
+  "r2": "",
+  "why": "Cap the depth"
+ }
+]
